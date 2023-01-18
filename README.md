@@ -43,7 +43,7 @@ Alternatively, you can clone the project directly from this repo to your local s
 git clone https://github.com/hammadmajid/astrobul
 ```
 
-## Commands
+### Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -53,6 +53,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`          | Starts local dev server at `localhost:3000`        |
 | `npm run build`        | Build your production site to `./dist/`            |
 | `npm run preview`      | Preview your build locally, before deploying       |
+
+## 💭 Discussions
+
+We use GitHub Discussions to talk about all sorts of topics related to Astrobul. For example: if you'd like help troubleshooting a PR, have a great new idea, or just want to say 👋 **hi**, join us in the [discussions](https://github.com/hammadmajid/astrobul/discussions).
 
 ---
 <sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
