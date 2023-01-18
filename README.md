@@ -1,4 +1,4 @@
-![License badge](https://img.shields.io/badge/CC-ZERO-black) [![Netlify Status](https://api.netlify.com/api/v1/badges/ab3bcbc7-a369-4265-8081-64e648aa72e2/deploy-status)](https://app.netlify.com/sites/astrobul/deploys)
+![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify)
 
 # Astrobul
 
