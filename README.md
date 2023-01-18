@@ -4,5 +4,13 @@
 
 A production ready, modern and accessible website template built with Astro.js and Bulma.io
 
+## Tech Stack
+
+Technologies used to create this template
+
+- Main Framework: [Astro.js](https://astro.build/)
+- Styling: [Bulma](https://bulma.io/)
+- UI/UX: [Figma](https://figma.com)
+
 ---
 <sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
