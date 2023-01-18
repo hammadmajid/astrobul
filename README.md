@@ -4,6 +4,25 @@
 
 A production ready, modern and accessible website template built with **Astro.js** and **Bulma.io**. You can view the live preview [here](https://preview.astrobul.hammadmajid.com) and also checkout the design protype [page](https://www.figma.com/community/file/1197507698947430863).
 
+## 🎉 Features
+
+Astrobul comes with these amazing features out of the box.
+
+✔ High performance
+
+✔ Accessible
+
+✔ Responsive
+
+✔ SEO-friendly
+
+✔ Light & Dark Mode
+
+✔ Sitemap
+
+✔ Zero Javascript
+
+
 ## 💻 Tech Stack
 
 Technologies used to create this template
