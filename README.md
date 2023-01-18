@@ -12,5 +12,17 @@ Technologies used to create this template
 - Styling: [Bulma](https://bulma.io/)
 - UI/UX: [Figma](https://figma.com)
 
+## Setup Guide
+
+If you are reading this on github, you can click on the **Use this template** button above to create a new repository from astroship to your account. Then you can do a git clone to clone it to your local system.
+
+Alternatively, you can clone the project directly from this repo to your local system.
+
+### Clone the repo
+
+```
+git clone https://github.com/hammadmajid/astrobul
+```
+
 ---
 <sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
