@@ -43,5 +43,16 @@ Alternatively, you can clone the project directly from this repo to your local s
 git clone https://github.com/hammadmajid/astrobul
 ```
 
+## Commands
+
+All commands are run from the root of the project, from a terminal:
+
+ Command                | Action                                             |
+| :--------------------- | :------------------------------------------------- |
+| `npm install`          | Installs dependencies                              |
+| `npm run dev`          | Starts local dev server at `localhost:3000`        |
+| `npm run build`        | Build your production site to `./dist/`            |
+| `npm run preview`      | Preview your build locally, before deploying       |
+
 ---
 <sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
