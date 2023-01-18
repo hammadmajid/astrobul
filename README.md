@@ -1,4 +1,4 @@
-![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify)
+![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases)
 
 # 🚀 Astrobul
 
