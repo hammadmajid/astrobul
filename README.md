@@ -1,8 +1,18 @@
 ![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases)
 
 # 🚀 Astrobul
+![Hero](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
 
-A production ready, modern and accessible website template built with **Astro.js** and **Bulma.io**. You can view the live preview [here](https://preview.astrobul.hammadmajid.com) and also checkout the design protype [page](https://www.figma.com/community/file/1197507698947430863).
+A production ready, modern and accessible website template built with **Astro.js** and **Bulma**.
+
+**Links**
+
+- Live preview ([view](https://preview.astrobul.hammadmajid.com))
+- Design prototype ([view](https://www.figma.com/community/file/1197507698947430863))
+
+## 📄 Documentation
+
+You can read the documentation in the [wikis](https://github.com/hammadmajid/astrobul/wiki).
 
 ## 🎉 Features
 
@@ -29,34 +39,20 @@ Technologies used to create this template
 
 - Main Framework: [Astro.js](https://astro.build/)
 - Styling: [Bulma](https://bulma.io/)
-- UI/UX: [Figma](https://figma.com)
+- UI/UX: [Figma](https://figma.com/)
+- Deployemnt: [Netlify](https://netlify.app/)
+- Illustration: [DesignStripe](https://designstripe.com/)
+- Icons: [Fontawesome](https://fontawesome.com/)
 
-## 🔧 Setup Guide
+## 📝 Contributing guidelines
 
-If you are reading this on github, you can click on the **Use this template** button above to create a new repository from **astrobul** to your account. Then you can do a git clone to clone it to your local system.
+See the [contributing guide](./CONTRIBUTING.md) for detailed instructions on how to get started with this project. For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/hammadmajid/astrobul/issues/new/choose) to describe the changes you'd like to see.
 
-Alternatively, you can clone the project directly from this repo to your local system.
+If you're looking for a way to contribute, you can scan through our existing [issues](https://github.com/hammadmajid/astrobul/issues/) for something to work on, also checkout this amazing [guide](https://opensource.guide/how-to-contribute/) on how to contribute to open source.
 
-### Clone the repo
+## 💞 Code of Conduct
 
-```
-git clone https://github.com/hammadmajid/astrobul
-```
-
-### Commands
-
-All commands are run from the root of the project, from a terminal:
-
- Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-
-## 💭 Discussions
-
-We use GitHub Discussions to talk about all sorts of topics related to Astrobul. For example: if you'd like help troubleshooting a PR, have a great new idea, or just want to say 👋 **hi**, join us in the [discussions](https://github.com/hammadmajid/astrobul/discussions).
+This project has adopted the [Contributor Covenant Code of Conduct](./CODEO_OF_CONDUCT.md). For any questions or comments you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com).
 
 ---
 <sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
