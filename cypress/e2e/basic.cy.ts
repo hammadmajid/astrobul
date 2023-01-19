@@ -8,3 +8,5 @@ describe('empty spec', () => {
             .contains('Astro');
     })
 })
+
+export{}
