@@ -1,0 +1,12 @@
+[build]
+  command = "astro build"
+  publish = "dist"
+
+[[plugins]] 
+  package = "netlify-plugin-cypress"
+
+  [plugins.inputs.postBuild]
+    enable = true
+  
+  [plugin.inputs]
+    enable = false
