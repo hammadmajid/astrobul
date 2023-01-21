@@ -1,4 +1,4 @@
-![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases)
+![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify) [![Cypress Tests](https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml/badge.svg)](https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases&label=Release)
 
 # 🚀 Astrobul
 ![Hero](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
