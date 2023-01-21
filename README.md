@@ -12,24 +12,19 @@ A production ready, modern and accessible website template built with **Astro.js
 
 ## 📄 Documentation
 
-You can read the documentation in the [wikis](https://github.com/hammadmajid/astrobul/wiki).
+You can read the documentation [here](https://pages.hammadmajid.com/astrobul).
 
 ## 🎉 Features
 
 Astrobul comes with these amazing features out of the box.
 
-- [ ] High performance
 
 - [ ] Accessible
-
 - [ ] Responsive
-
 - [ ] SEO-friendly
-
 - [ ] Light & Dark Mode
-
 - [ ] Sitemap
-
+- [x] High performance
 - [x] Zero Javascript
 
 
