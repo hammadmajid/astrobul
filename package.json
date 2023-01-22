@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "css-build": "node-sass --omit-source-map-url src/styles/global.scss src/styles/main.css",
+    "css-build": "node-sass --omit-source-map-url src/styles/global.scss src/styles/global.css",
     "css-watch": "npm run css-build -- --watch"
   },
   "dependencies": {
