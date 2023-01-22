@@ -5,7 +5,7 @@ export interface Props {
 
 const { title } = Astro.props as Props;
 
-import 'bulma/css/bulma.css'
+import stylesUrl from "../styles/global.css?url"
 ---
 
 <!DOCTYPE html>
@@ -15,6 +15,7 @@ import 'bulma/css/bulma.css'
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
+        <link rel="stylesheet" type="text/css" href={stylesUrl} /> 
         <slot name="head" />
     </head>
     <body>
