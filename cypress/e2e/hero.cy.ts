@@ -4,12 +4,12 @@ describe('Has correct content', () => {
     })
 
     it('Displays the correct title', () => {
-        cy.get('.hero > .hero-body > .title')
+        cy.get('#hero-title')
             .contains('Astro');
     })
 
     it('Displays the correct subtitle', () => {
-        cy.get('.hero > .hero-body > .subtitle')
+        cy.get('#hero-subtitle')
             .contains('Production ready, modern and high performance website template built with Astro.js and Bulma.io')
     })
 })
@@ -20,14 +20,14 @@ describe('Buttons work as expected', () => {
     })
 
     it('Tests primary button', () => {
-        cy.get('.hero > .hero-body > .buttons > .is-secondary')
+        cy.get('#hero-primary-btn')
             .contains('Get Template').click()
         cy.url().should('include', '/#')
 
     })
 
     it('Tests secondary button', () => {
-        cy.get('.hero > .hero-body > .buttons > .is-light')
+        cy.get('#hero-secondary-btn')
             .contains('View code').click()
         cy.url().should('include', '/#')
     })
