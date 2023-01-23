@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
@@ -299,7 +300,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 code,
 pre {
@@ -8591,13 +8592,13 @@ a.has-text-secondary-lightest-dark:hover, a.has-text-secondary-lightest-dark:foc
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Open Sans", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Open Sans", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Open Sans", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
