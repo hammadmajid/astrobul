@@ -3,8 +3,32 @@
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
+
+// Update Bulma's color
+$black: #111111;
+$black-bis: #1e1e1e;
+$black-ter: #212529;
+$grey-darker: #343a40;
+$grey-dark: #495057;
+$grey: #6c757d;
+$grey-light: #adb5bd;
+$grey-lighter: #ced4da;
+$grey-lightest: #dee2e6;
+$white-ter: #e9ecef;
+$white-bis: #f8f9fa;
+$white: #f8f9fa;
 $primary: #264653;
-$info: #E76F51;
+
+// Add custom colors
+$custom-colors: (
+    "primary-light": #275c62,
+    "primary-lighter": #287271,
+    "primary-lightest": #2a9d8f,
+    "secondary": #e76f51,
+    "secondary-light": #ee8959,
+    "secondary-lighter": #f4a261,
+    "secondary-lightest": #efb366,
+);
 
 // Import rest of bulma
 @import "../../node_modules/bulma/bulma.sass";
