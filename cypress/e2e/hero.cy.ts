@@ -1,5 +1,5 @@
 describe('Has correct content', () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit('/')
     })
 
