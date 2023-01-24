@@ -1,23 +1,21 @@
-![License badge](https://img.shields.io/badge/License-CC%20ZERO-blue) ![Netlify](https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify) [![Cypress Tests](https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml/badge.svg)](https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases&label=Release)
+# <p style="text-align:center">🚀 Astrobul</p>
 
-# 🚀 Astrobul
-![Hero](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
+![Screenshot of the website](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
 
-A production ready, modern and accessible website template built with **Astro.js** and **Bulma**.
+<p style="text-align:center">
+    <img src="https://img.shields.io/badge/License-CC%20ZERO-blue" alt="License badge"/>
+    <img src="https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify" alt="Netlify build status badge"/>
+    <img src="https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml/badge.svg" alt="Cypress tests status badge"/>
+    <img src="https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases&label=Release" alt="Latest release version badge"/>
+</p>
 
-**Links**
+A production-ready, modern, and accessible website template that utilizes the latest front-end technologies like [Astro](https://astro.build/) and [Bulma](https://bulma.io/) this template is packed with rich features such as Responsive Design, SEO Optimization, Cross-Browser Compatibility, and more.
 
-- Live preview ([view](https://preview.astrobul.hammadmajid.com))
-- Design prototype ([view](https://www.figma.com/community/file/1197507698947430863))
-
-## 📄 Documentation
-
-You can read the documentation [here](https://pages.hammadmajid.com/astrobul).
+For the live preview, simply click [here](https://preview.astrobul.hammadmajid.com). And for the design prototype, click [here](https://www.figma.com/community/file/1197507698947430863). I hope that these links will give you a better idea of the code and design, and that you find them both useful and informative.
 
 ## 🎉 Features
 
-Astrobul comes with these amazing features out of the box.
-
+Astrobul comes with these incredible features out of the box:
 
 - [ ] Accessible
 - [ ] Responsive
@@ -27,19 +25,51 @@ Astrobul comes with these amazing features out of the box.
 - [x] High performance
 - [x] Zero Javascript
 
-
 ## 💻 Tech Stack
 
-Technologies used to create this template
+Technologies used to create this template:
 
 - Main Framework: [Astro.js](https://astro.build/)
 - Styling: [Bulma](https://bulma.io/)
 - UI/UX: [Figma](https://figma.com/)
-- Deployemnt: [Netlify](https://netlify.app/)
+- Deployment: [Netlify](https://netlify.app/)
 - Illustration: [DesignStripe](https://designstripe.com/)
 - Icons: [Fontawesome](https://fontawesome.com/)
 
-## 📝 Contributing guidelines
+## 📃 Documentation
+
+Get started with how to use this template for your use case
+
+### Prerequisites  
+
+Before you continue further make sure that you have Node and NPM installed on your machine
+
+```bash
+# Install the dependencies
+$ npm ci 
+```
+
+### Local development server
+
+To start the local development server you can simply run
+
+```bash
+# starts a dev server at localhost:3000
+$ npm start # or npm run dev
+```
+
+### Build for production
+
+Build your site for production
+
+```bash
+$ npm run build
+
+# preview the production locally
+$ npm run preview
+```
+
+## ⚖ Contributing guidelines
 
 See the [contributing guide](./CONTRIBUTING.md) for detailed instructions on how to get started with this project. For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/hammadmajid/astrobul/issues/new/choose) to describe the changes you'd like to see.
 
