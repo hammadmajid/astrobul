@@ -1,12 +1,33 @@
-describe('Test Hero section on homepage', () => {
+describe('Has correct content', () => {
     beforeEach(() => {
         cy.visit('/')
     })
 
-    it('Displays the correct heading', () => {
-        cy.get('h1')
+    it('Displays the correct title', () => {
+        cy.get('#hero-title')
             .contains('Astro');
+    })
+
+    it('Displays the correct subtitle', () => {
+        cy.get('#hero-subtitle')
+            .contains('Production ready, modern and high performance website template built with Astro.js and Bulma.io')
     })
 })
 
-export{}
+describe('Buttons work as expected', () => {
+    beforeEach(() => {
+        cy.visit('/')
+    })
+
+    it('Tests primary button', () => {
+        cy.get('#hero-primary-btn')
+            .contains('Get Template').click()
+    })
+
+    it('Tests secondary button', () => {
+        cy.get('#hero-secondary-btn')
+            .contains('View code').click()
+    })
+})
+
+export { }
