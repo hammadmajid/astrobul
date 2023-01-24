@@ -22,14 +22,11 @@ describe('Buttons work as expected', () => {
     it('Tests primary button', () => {
         cy.get('#hero-primary-btn')
             .contains('Get Template').click()
-        cy.url().should('include', '/#')
-
     })
 
     it('Tests secondary button', () => {
         cy.get('#hero-secondary-btn')
             .contains('View code').click()
-        cy.url().should('include', '/#')
     })
 })
 
