@@ -1,8 +1,8 @@
-# <p style="text-align:center">🚀 Astrobul</p>
+# <p align="center">🚀 Astrobul</p>
 
 ![Screenshot of the website](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
 
-<p style="text-align:center">
+<p align="center">
     <img src="https://img.shields.io/badge/License-CC%20ZERO-blue" alt="License badge"/>
     <img src="https://img.shields.io/netlify/ab3bcbc7-a369-4265-8081-64e648aa72e2?label=Netlify" alt="Netlify build status badge"/>
     <img src="https://github.com/hammadmajid/astrobul/actions/workflows/cypress.yml/badge.svg" alt="Cypress tests status badge"/>
@@ -18,10 +18,10 @@ For the live preview, simply click [here](https://preview.astrobul.hammadmajid.c
 Astrobul comes with these incredible features out of the box:
 
 - [ ] Accessible
-- [ ] Responsive
 - [ ] SEO-friendly
 - [ ] Light & Dark Mode
 - [ ] Sitemap
+- [x] Responsive
 - [x] High performance
 - [x] Zero Javascript
 
@@ -38,7 +38,7 @@ Technologies used to create this template:
 
 ## 📃 Documentation
 
-Get started with how to use this template for your use case
+This documentaion p
 
 ### Prerequisites  
 
@@ -69,7 +69,7 @@ $ npm run build
 $ npm run preview
 ```
 
-## ⚖ Contributing guidelines
+## 📑 Contributing guidelines
 
 See the [contributing guide](./CONTRIBUTING.md) for detailed instructions on how to get started with this project. For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/hammadmajid/astrobul/issues/new/choose) to describe the changes you'd like to see.
 
@@ -79,5 +79,9 @@ If you're looking for a way to contribute, you can scan through our existing [is
 
 This project has adopted the [Contributor Covenant Code of Conduct](./CODEO_OF_CONDUCT.md). For any questions or comments you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com).
 
+## ⚖ License
+
+The template is licensed under **CC0-1.0 license**. You may copy, modify, and distribute it under the terms and conditions described in the file [LICENSE](./LICENSE).
+
 ---
-<sub>Made with ❤ by [Hammad Majid](https://github.com/hammadmajid)</sub>
+<p align="center"><sub>Made with ❤ by <a href="https://hammadmajid.com">Hammad Majid</a></sub></p>
