@@ -1,6 +1,7 @@
 # <p align="center">🚀 Astrobul</p>
 
-![Screenshot of the website](https://user-images.githubusercontent.com/67387019/213404972-4ea6e0cd-2d5f-48f2-895b-ee80c9ca1419.png)
+![GiitHub Social Cover](https://user-images.githubusercontent.com/67387019/215062276-9567925d-3b01-4a15-bf6b-93e56f60e271.png)
+
 
 <p align="center">
     <img src="https://img.shields.io/badge/License-CC%20ZERO-blue" alt="License badge"/>
@@ -38,36 +39,8 @@ Technologies used to create this template:
 
 ## 📃 Documentation
 
-This documentaion p
+You can read the documentation [here](). If you have any question/comment you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com)
 
-### Prerequisites  
-
-Before you continue further make sure that you have Node and NPM installed on your machine
-
-```bash
-# Install the dependencies
-$ npm ci 
-```
-
-### Local development server
-
-To start the local development server you can simply run
-
-```bash
-# starts a dev server at localhost:3000
-$ npm start # or npm run dev
-```
-
-### Build for production
-
-Build your site for production
-
-```bash
-$ npm run build
-
-# preview the production locally
-$ npm run preview
-```
 
 ## 📑 Contributing guidelines
 
