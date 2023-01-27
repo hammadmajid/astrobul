@@ -14,6 +14,11 @@ A production-ready, modern, and accessible website template that utilizes the la
 
 For the live preview, simply click [here](https://preview.astrobul.hammadmajid.com). And for the design prototype, click [here](https://www.figma.com/community/file/1197507698947430863). I hope that these links will give you a better idea of the code and design, and that you find them both useful and informative.
 
+
+## 📃 Documentation
+
+You can read the documentation [here](https://docs.hammadmajid.com/astrobul). If you have any question/comment you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com)
+
 ## 🎉 Features
 
 Astrobul comes with these incredible features out of the box:
@@ -36,11 +41,6 @@ Technologies used to create this template:
 - Deployment: [Netlify](https://netlify.app/)
 - Illustration: [DesignStripe](https://designstripe.com/)
 - Icons: [Fontawesome](https://fontawesome.com/)
-
-## 📃 Documentation
-
-You can read the documentation [here](). If you have any question/comment you can contact [hm.hammadmajid@gmail.com](mailto:hm.hammadmajid@gmail.com)
-
 
 ## 📑 Contributing guidelines
 
