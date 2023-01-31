@@ -5,7 +5,8 @@ export interface Props {
 
 const { title } = Astro.props as Props;
 
-import stylesUrl from "@styles/global.css?url"
+import stylesUrl from "@styles/global.css?url";
+import NavBar from "@components/NavBar.astro";
 ---
 
 <!DOCTYPE html>
@@ -16,9 +17,11 @@ import stylesUrl from "@styles/global.css?url"
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
         <link rel="stylesheet" type="text/css" href={stylesUrl} /> 
+        <script src="https://kit.fontawesome.com/cbef3dd862.js" crossorigin="anonymous"></script>
         <slot name="head" />
     </head>
     <body>
+        <NavBar />
         <slot />
     </body>
 </html>
