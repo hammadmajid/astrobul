@@ -21,18 +21,14 @@ describe('Buttons work as expected', () => {
 
     it('Tests primary button', () => {
         cy.get('#hero-primary-btn')
-            .contains('Get Template').click()
-            cy.on('url:changed', (newUrl) => {
-                expect(newUrl).to.equal("https://store.hammadmajid.com/")
-            })
+            .contains('Get Template')
+	    .should('have.attr', 'href').and('eq', 'https://store.hammadmajid.com/')
     })
 
     it('Tests secondary button', () => {
         cy.get('#hero-secondary-btn')
-            .contains('View code').click()
-            cy.on('url:changed', (newUrl) => {
-                expect(newUrl).to.equal("https://github.com/hammadmajid/astrobul")
-            })
+            .contains('View code')
+	    .should('have.attr', 'href').and('eq', 'https://github.com/hammadmajid/astrobul')
     })
 })
 
