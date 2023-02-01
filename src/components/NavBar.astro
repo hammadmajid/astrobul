@@ -1,0 +1,75 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <span class="has-text-primary">astro</span><span
+                class="has-text-secondary">bul</span
+            >
+        </a>
+        <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="toogle-menu"
+        >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu" id="toogle-menu">
+        <div class="navbar-end">
+            <a href="/" class="navbar-item" id="home-link">Home</a>
+            <a href="/" class="navbar-item" id="pricing-link">Pricing</a>
+            <a href="/" class="navbar-item" id="contact-link">Contact</a>
+            <a href="/" class="navbar-item" id="about-link">About</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a href="/" class="navbar-link" id="more-link">More</a>
+                <div class="navbar-dropdown">
+                    <a href="/" class="navbar-item" id="license-link">License</a
+                    >
+                    <a href="/" class="navbar-item" id="issues-link">Issues</a>
+                    <a href="/" class="navbar-item" id="pr-link"
+                        >Pull requests</a
+                    >
+                    <hr class="navbar-divider" />
+                    <a href="/" class="navbar-item" id="github-link">GitHub</a>
+                </div>
+            </div>
+            <a class="navbar-item"
+                ><span class="icon">
+                    <i class="fa-solid fa-sun"></i>
+                </span>
+            </a>
+            <a href="/" class="navbar-item"
+                ><span class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers: HTMLElement[] = Array.prototype.slice.call(
+            document.querySelectorAll(".navbar-burger"),
+            0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((e) => {
+            e.addEventListener("click", () => {
+                // Get the target from the "data-target" attribute
+                const target: string = e.dataset.target!;
+                const $target: HTMLElement = document.getElementById(target)!;
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                e.classList.toggle("is-active");
+                $target.classList.toggle("is-active");
+            });
+        });
+    });
+</script>
