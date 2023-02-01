@@ -15,7 +15,7 @@
   "dependencies": {
     "astro": "^2.0.2",
     "bulma": "^0.9.4",
-    "cypress": "^12.3.0"
+    "cypress": "^12.4.1"
   },
   "devDependencies": {
     "node-sass": "^8.0.0"
