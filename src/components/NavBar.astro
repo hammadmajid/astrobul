@@ -1,4 +1,8 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav
+    class="navbar px-4 has-shadow is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+>
     <div class="navbar-brand">
         <a href="/" class="navbar-item">
             <span class="has-text-primary">astro</span><span
@@ -21,30 +25,39 @@
     <div class="navbar-menu" id="toogle-menu">
         <div class="navbar-end">
             <a href="/" class="navbar-item" id="home-link">Home</a>
-            <a href="/" class="navbar-item" id="pricing-link">Pricing</a>
-            <a href="/" class="navbar-item" id="contact-link">Contact</a>
-            <a href="/" class="navbar-item" id="about-link">About</a>
+            <a href="/pricing" class="navbar-item" id="pricing-link">Pricing</a>
+            <a href="/contact" class="navbar-item" id="contact-link">Contact</a>
+            <a href="/about" class="navbar-item" id="about-link">About</a>
             <div class="navbar-item has-dropdown is-hoverable">
-                <a href="/" class="navbar-link" id="more-link">More</a>
+                <a class="navbar-link" id="more-link">More</a>
                 <div class="navbar-dropdown">
-                    <a href="/" class="navbar-item" id="license-link">License</a
+                    <a
+                        href="https://www.figma.com/community/file/1197507698947430863"
+                        class="navbar-item"
+                        id="prototype-link">Prototype</a
                     >
-                    <a href="/" class="navbar-item" id="issues-link">Issues</a>
-                    <a href="/" class="navbar-item" id="pr-link"
-                        >Pull requests</a
+                    <a
+                        href="https://patreon.com/hammadmajid"
+                        class="navbar-item"
+                        id="sponsor-link">Sponsor</a
+                    >
+                    <a
+                        href="https://github.com/users/hammadmajid/projects/10"
+                        class="navbar-item"
+                        id="project-link">Roadmap</a
                     >
                     <hr class="navbar-divider" />
-                    <a href="/" class="navbar-item" id="github-link">GitHub</a>
+                    <a
+                        href="https://creativecommons.org/publicdomain/zero/1.0/"
+                        class="navbar-item"
+                        id="license-link">License</a
+                    >
                 </div>
             </div>
+            <!-- TODO(hammadmajid): implement light/dark mode -->
             <a class="navbar-item"
                 ><span class="icon">
                     <i class="fa-solid fa-sun"></i>
-                </span>
-            </a>
-            <a href="/" class="navbar-item"
-                ><span class="icon">
-                    <i class="fa-brands fa-github"></i>
                 </span>
             </a>
         </div>
