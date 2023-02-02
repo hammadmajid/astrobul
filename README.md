@@ -10,9 +10,7 @@
     <img src="https://img.shields.io/github/v/release/hammadmajid/astrobul?include_prereleases&label=Release" alt="Latest release version badge"/>
 </p>
 
-A production-ready, modern, and accessible website template that utilizes the latest front-end technologies like [Astro](https://astro.build/) and [Bulma](https://bulma.io/) this template is packed with rich features such as Responsive Design, SEO Optimization, Cross-Browser Compatibility, and more.
-
-For the live preview, simply click [here](https://preview.astrobul.hammadmajid.com). And for the design prototype, click [here](https://www.figma.com/community/file/1197507698947430863). I hope that these links will give you a better idea of the code and design, and that you find them both useful and informative.
+A production-ready, modern, and accessible website template that is built on the latest front-end technologies like [Astro](https://astro.build/) and [Bulma](https://bulma.io/) this template is packed with rich features such as Responsive Design, SEO Optimization, Cross-Browser Compatibility, and more. Checkout the live preview [here](https://preview.astrobul.hammadmajid.com) and design prototype [here](https://www.figma.com/community/file/1197507698947430863).
 
 
 ## 📃 Documentation
@@ -29,7 +27,6 @@ Astrobul comes with these incredible features out of the box:
 - [ ] Sitemap
 - [x] Responsive
 - [x] High performance
-- [x] Zero Javascript
 
 ## 💻 Tech Stack
 
@@ -37,8 +34,9 @@ Technologies used to create this template:
 
 - Main Framework: [Astro.js](https://astro.build/)
 - Styling: [Bulma](https://bulma.io/)
-- UI/UX: [Figma](https://figma.com/)
 - Deployment: [Netlify](https://netlify.app/)
+- Testing: [Cypress](https://cypress.io)
+- UI/UX: [Figma](https://figma.com/)
 - Illustration: [DesignStripe](https://designstripe.com/)
 - Icons: [Fontawesome](https://fontawesome.com/)
 
@@ -54,7 +52,7 @@ This project has adopted the [Contributor Covenant Code of Conduct](./CODEO_OF_C
 
 ## ⚖ License
 
-The template is licensed under **CC0-1.0 license**. You may copy, modify, and distribute it under the terms and conditions described in the file [LICENSE](./LICENSE).
+The source code is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) and website design is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 <p align="center"><sub>Made with ❤ by <a href="https://hammadmajid.com">Hammad Majid</a></sub></p>
