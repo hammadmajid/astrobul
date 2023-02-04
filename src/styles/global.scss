@@ -32,11 +32,4 @@ $custom-colors: (
 );
 
 // Import required Bulma only
-@import "../../node_modules/bulma/sass/base/_all.sass";
-@import "../../node_modules/bulma/sass/utilities/_all.sass";
-@import "../../node_modules/bulma/sass/layout/hero.sass";
-@import "../../node_modules/bulma/sass/elements/title.sass";
-@import "../../node_modules/bulma/sass/grid/columns.sass";
-@import "../../node_modules/bulma/sass/elements/button.sass";
-@import "../../node_modules/bulma/sass/helpers/_all.sass";
-@import "../../node_modules/bulma/sass/components/navbar.sass"
+@import "../../node_modules/bulma/bulma.sass";
