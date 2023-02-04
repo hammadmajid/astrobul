@@ -60,12 +60,17 @@ describe('Has correct content and links', () => {
         cy.get('#footer-form-title')
             .contains('Get the latest updates')
 
-        // cy.get(footerFormField)
-        //     .should('have.attr', 'required')
-        // cy.get(footerFormField)
-        //     .should('have.attr', 'placeholder').and('eq', 'johndoe@example.com')
-        // cy.get(footerFormField).type('fakemail@example.com')
-        // cy.get(footerFormField).should('have.value', 'fakemail@example.com')
+        const footerFormField: string = '#footer-form-field'
+        cy.get(footerFormField)
+            .should('have.attr', 'required')
+        cy.get(footerFormField)
+            .should('have.attr', 'placeholder').and('eq', 'johndoe@example.com')
+        cy.get(footerFormField).type('fakemail@example.com')
+        cy.get(footerFormField).should('have.value', 'fakemail@example.com')
+
+        cy.get('#footer-form-button')
+            .contains('Subscribe').click()
+            .url().should('include', '?')
     })
 
     it('Tests footer credit', () => {
