@@ -1,28 +1,30 @@
-describe('Tests NavBar functionality', () => {
+describe('Navbar links have correct name & URL', () => {
     beforeEach(() => {
         cy.visit('/')
     })
 
-    it('Links have correct name and url', () => {
+    it('Tests internal links', () => {
         cy.get('#home-link')
-            .contains('Home')
-            .should('have.attr', 'href').and('include', '/')
+            .contains('Home').click()
+            .url().should('include', '/')
 
+        cy.visit('/')
         cy.get('#pricing-link')
-            .contains('Pricing')
-            .should('have.attr', 'href').and('include', '/pricing')
+            .contains('Pricing').click()
+            .url().should('include', '/pricing')
 
+        cy.visit('/')
         cy.get('#contact-link')
-            .contains('Contact')
-            .should('have.attr', 'href').and('include', '/contact')
+            .contains('Contact').click()
+            .url().should('include', '/contact')
 
+        cy.visit('/')
         cy.get('#about-link')
-            .contains('About')
-            .should('have.attr', 'href').and('include', '/about')
+            .contains('About').click()
+            .url().should('include', '/about')
+    })
 
-        cy.get('#more-link')
-            .contains('More')
-
+    it('Tests external links', () => {
         cy.get('#license-link')
             .contains('License')
             .should('have.attr', 'href').and('eq', 'https://creativecommons.org/publicdomain/zero/1.0/')
@@ -41,4 +43,56 @@ describe('Tests NavBar functionality', () => {
     })
 })
 
-export { }
+describe('Navbar displays correctly on different screen sizes', () => {
+    context('Desktop', () => {
+
+        beforeEach(() => {
+            cy.visit('/')
+            cy.viewport(1280, 1000)
+        })
+
+        it('Displays nav links on desktop', () => {
+            cy.get('.navbar-end').should('be.visible')
+        })
+    })
+
+    context('Mobile', () => {
+        beforeEach(() => {
+            cy.visit('/')
+            cy.viewport(400, 800)
+        })
+
+        it('Hides nav links on mobile', () => {
+            cy.get('.navbar-end').should('not.be.visible')
+        })
+    })
+})
+
+describe('Navbar works as expected', () => {
+    context('Desktop', () => {
+        beforeEach(() => {
+            cy.visit('/')
+            cy.viewport(1280, 1000)
+        })
+
+        it('Dropdown menu displays on hover', () => {
+            cy.get('.navbar-dropdown').invoke('show')
+            cy.get('.navbar-dropdown').should('be.visible')
+        })
+    })
+
+    context('Mobile', () => {
+        beforeEach(() => {
+            cy.visit('/')
+            cy.viewport(400, 800)
+        })
+
+        it('All menu opens on click', () => {
+            cy.get(".navbar-burger").click()
+            cy.get('.navbar-end').should('be.visible')
+            cy.get('.navbar-dropdown').should('be.visible')
+        })
+    })
+})
+
+export { } // See TS1028

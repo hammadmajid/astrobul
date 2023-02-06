@@ -1,4 +1,4 @@
-describe('Has correct content', () => {
+describe('Hero have correct content', () => {
     beforeEach(() => {
         cy.visit('/')
     })
@@ -14,7 +14,7 @@ describe('Has correct content', () => {
     })
 })
 
-describe('Buttons work as expected', () => {
+describe('Hero buttons work as expected', () => {
     beforeEach(() => {
         cy.visit('/')
     })
@@ -22,14 +22,14 @@ describe('Buttons work as expected', () => {
     it('Tests primary button', () => {
         cy.get('#hero-primary-btn')
             .contains('Get Template')
-	    .should('have.attr', 'href').and('eq', 'https://store.hammadmajid.com/')
+            .should('have.attr', 'href').and('eq', 'https://store.hammadmajid.com/')
     })
 
     it('Tests secondary button', () => {
         cy.get('#hero-secondary-btn')
             .contains('View code')
-	    .should('have.attr', 'href').and('eq', 'https://github.com/hammadmajid/astrobul')
+            .should('have.attr', 'href').and('eq', 'https://github.com/hammadmajid/astrobul')
     })
 })
 
-export { }
+export { } // See TS1028

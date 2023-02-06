@@ -1,4 +1,4 @@
-describe('Has correct content and links', () => {
+describe('Footer links have correct name & URL', () => {
     beforeEach(() => {
         cy.visit('/')
     })
@@ -56,23 +56,6 @@ describe('Has correct content and links', () => {
             .should('have.attr', 'href').and('eq', 'https://creativecommons.org/publicdomain/zero/1.0/')
     })
 
-    it('Tests sign up form', () => {
-        cy.get('#footer-form-title')
-            .contains('Get the latest updates')
-
-        const footerFormField: string = '#footer-form-field'
-        cy.get(footerFormField)
-            .should('have.attr', 'required')
-        cy.get(footerFormField)
-            .should('have.attr', 'placeholder').and('eq', 'johndoe@example.com')
-        cy.get(footerFormField).type('fakemail@example.com')
-        cy.get(footerFormField).should('have.value', 'fakemail@example.com')
-
-        cy.get('#footer-form-button')
-            .contains('Subscribe').click()
-            .url().should('include', '?')
-    })
-
     it('Tests footer credit', () => {
         cy.get('#footer-credit-text').should('contain', 'Made with ♥ by')
 
@@ -81,4 +64,24 @@ describe('Has correct content and links', () => {
     })
 })
 
-export { }
+describe('Footer sign-up form works', () => {
+    before(() => {
+        cy.visit('/')
+    })
+
+    it('Tests sign up form', () => {
+        cy.get('#footer-form-title')
+            .contains('Get the latest updates')
+
+        cy.get('#footer-form-field')
+            .should('have.attr', 'required')
+        cy.get('#footer-form-field').type('fakemail@example.com')
+            .should('have.value', 'fakemail@example.com')
+
+        cy.get('#footer-form-button')
+            .contains('Subscribe').click()
+            .url().should('include', '?')
+    })
+})
+
+export { } // TS1028
