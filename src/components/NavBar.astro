@@ -15,6 +15,7 @@
             aria-label="menu"
             aria-expanded="false"
             data-target="toogle-menu"
+            data-test-id="navbar-burger"
         >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -23,34 +24,49 @@
     </div>
 
     <div class="navbar-menu" id="toogle-menu">
-        <div class="navbar-end">
-            <a href="/" class="navbar-item" id="home-link">Home</a>
-            <a href="/pricing" class="navbar-item" id="pricing-link">Pricing</a>
-            <a href="/contact" class="navbar-item" id="contact-link">Contact</a>
-            <a href="/about" class="navbar-item" id="about-link">About</a>
+        <div class="navbar-end" data-test-id="navbar-end">
+            <a href="/" class="navbar-item" data-test-id="navbar-end-home-link"
+                >Home</a
+            >
+            <a
+                href="/pricing"
+                class="navbar-item"
+                data-test-id="navbar-end-pricing-link">Pricing</a
+            >
+            <a
+                href="/contact"
+                class="navbar-item"
+                data-test-id="navbar-end-contact-link">Contact</a
+            >
+            <a
+                href="/about"
+                class="navbar-item"
+                data-test-id="navbar-end-about-link">About</a
+            >
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" id="more-link">More</a>
-                <div class="navbar-dropdown">
+                <a class="navbar-link" data-test-id="more-link">More</a>
+                <div class="navbar-dropdown" data-test-id="navbar-dropdown">
                     <a
                         href="https://www.figma.com/community/file/1197507698947430863"
                         class="navbar-item"
-                        id="prototype-link">Prototype</a
+                        data-test-id="navbar-dropdown-prototype-link"
+                        >Prototype</a
                     >
                     <a
                         href="https://patreon.com/hammadmajid"
                         class="navbar-item"
-                        id="sponsor-link">Sponsor</a
+                        data-test-id="navbar-dropdown-sponsor-link">Sponsor</a
                     >
                     <a
                         href="https://github.com/users/hammadmajid/projects/10"
                         class="navbar-item"
-                        id="project-link">Roadmap</a
+                        data-test-id="navbar-dropdown-project-link">Roadmap</a
                     >
                     <hr class="navbar-divider" />
                     <a
                         href="https://creativecommons.org/publicdomain/zero/1.0/"
                         class="navbar-item"
-                        id="license-link">License</a
+                        data-test-id="navbar-dropdown-license-link">License</a
                     >
                 </div>
             </div>
