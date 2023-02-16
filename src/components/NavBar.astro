@@ -26,54 +26,46 @@
             <a href="/" class="navbar-item" data-test-id="navbar-end-home-link"
                 >Home</a
             >
-            <a
-                href="/pricing"
-                class="navbar-item"
-                data-test-id="navbar-end-pricing-link">Pricing</a
-            >
-            <a
-                href="/contact"
-                class="navbar-item"
-                data-test-id="navbar-end-contact-link">Contact</a
-            >
-            <a
-                href="/about"
-                class="navbar-item"
-                data-test-id="navbar-end-about-link">About</a
-            >
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" data-test-id="more-link">More</a>
+                <a class="navbar-link" data-test-id="navbar-dropdown-link"
+                    >Services</a
+                >
                 <div class="navbar-dropdown" data-test-id="navbar-dropdown">
                     <a
-                        href="https://www.figma.com/community/file/1197507698947430863"
+                        href="/service/branding"
                         class="navbar-item"
                         data-test-id="navbar-dropdown-prototype-link"
-                        >Prototype</a
+                        >Branding</a
                     >
                     <a
-                        href="https://patreon.com/hammadmajid"
+                        href="/services/e-commerce"
                         class="navbar-item"
-                        data-test-id="navbar-dropdown-sponsor-link">Sponsor</a
+                        data-test-id="navbar-dropdown-sponsor-link"
+                        >E-commerce</a
                     >
                     <a
-                        href="https://github.com/users/hammadmajid/projects/10"
+                        href="/service/social-media"
                         class="navbar-item"
-                        data-test-id="navbar-dropdown-project-link">Roadmap</a
-                    >
-                    <hr class="navbar-divider" />
-                    <a
-                        href="https://creativecommons.org/publicdomain/zero/1.0/"
-                        class="navbar-item"
-                        data-test-id="navbar-dropdown-license-link">License</a
+                        data-test-id="navbar-dropdown-project-link"
+                        >Social Media</a
                     >
                 </div>
+                <a
+                    href="/pricing"
+                    class="navbar-item"
+                    data-test-id="navbar-end-pricing-link">Pricing</a
+                >
+                <a
+                    href="/company"
+                    class="navbar-item"
+                    data-test-id="navbar-end-company-link">Company</a
+                >
+                <a
+                    href="/about"
+                    class="navbar-item"
+                    data-test-id="navbar-end-about-link">About</a
+                >
             </div>
-            <!-- TODO(hammadmajid): implement light/dark mode -->
-            <a class="navbar-item"
-                ><span class="icon">
-                    <i class="fa-solid fa-sun"></i>
-                </span>
-            </a>
         </div>
     </div>
 </nav>
