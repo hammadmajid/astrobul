@@ -13,7 +13,7 @@
   "dependencies": {
     "astro": "^2.0.10",
     "bulma": "^0.9.4",
-    "cypress": "^12.5.1"
+    "cypress": "^12.6.0"
   },
   "devDependencies": {
     "sass": "^1.58.0"
