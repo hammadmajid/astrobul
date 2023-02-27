@@ -11,7 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.10",
+    "astro": "^2.0.15",
     "bulma": "^0.9.4",
     "cypress": "^12.5.1"
   },
