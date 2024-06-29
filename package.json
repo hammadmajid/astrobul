@@ -8,9 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "build-balma": "sass --load-path=node_modules src/styles/bulma.scss bulma.css",
-    "watch-bulma": "npm run build-balma -- --watch"
     "build-bulma": "sass --load-path=node_modules src/styles/bulma.scss public/bulma.css",
+    "watch-bulma": "pnpm run build-bulma --watch"
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
