@@ -1,0 +1,28 @@
+---
+export interface Props {
+    title: string;
+    description: string;
+}
+
+const {title, description} = Astro.props as Props;
+---
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <meta name="description" content={description}/>
+    <meta property="og:title" content={title}/>
+    <meta property="og:description" content={description}/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content={Astro.url}/>
+
+    <!-- INFO! The below stylesheet is generated at build time. Run 'watch-bulma' npm script when in development -->
+    <link rel="stylesheet" href="/bulma.css">
+</head>
+<body>
+<slot/>
+</body>
+</html>
