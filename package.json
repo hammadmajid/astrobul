@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": " pnpm run build-bulma && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "build-bulma": "sass --load-path=node_modules src/styles/bulma.scss public/bulma.css",
