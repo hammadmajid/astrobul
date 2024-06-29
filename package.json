@@ -10,6 +10,7 @@
     "astro": "astro",
     "build-balma": "sass --load-path=node_modules src/styles/bulma.scss bulma.css",
     "watch-bulma": "npm run build-balma -- --watch"
+    "build-bulma": "sass --load-path=node_modules src/styles/bulma.scss public/bulma.css",
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
