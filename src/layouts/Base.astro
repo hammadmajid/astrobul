@@ -1,4 +1,6 @@
 ---
+import Navbar from '@components/Navbar.astro';
+
 export interface Props {
     title: string;
     description: string;
@@ -8,7 +10,7 @@ const {title, description} = Astro.props as Props;
 ---
 
 <!doctype html>
-<html>
+<html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +25,7 @@ const {title, description} = Astro.props as Props;
     <link rel="stylesheet" href="/bulma.css">
 </head>
 <body>
+<Navbar/>
 <slot/>
 </body>
 </html>
